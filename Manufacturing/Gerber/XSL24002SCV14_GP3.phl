@@ -1,0 +1,106 @@
+******  PHOTO DATA LIST ******
+
+                     Date/Time : Mon Jul 15 08:03:32 2024
+                     Host Name : "DESKTOP-7E5HBUS"
+                     Directory : "E:\tool\Cadence\SPB_Data"
+                     User Name : ³ÂÅåË¹
+
+                    <PHP> File : "C:\Users\³ÂÅåË¹\AppData\Local\Temp\param2.php"
+                      Comments : ""
+
+                <PCB/PNL> File : "E:\XSL\project\solo\LV07\num2\pcb\XSL24002SCV14.pcb"
+               <MRL/MRDB> File : "D:\Home\cdb\mrdb\pro.mrdb"
+                 Photo Machine : "RS274X"
+
+               Extended Format : Gerber RS274X
+                Character Code : ASCII
+                 Record Format : Full Storage
+                 Record Length : 512
+                  NC Data Unit : Millimeters
+             Coordinate Format : 000V000
+                    Round Unit : 0.00100
+     Coordinate Representation : Absolute
+              Omit Coordinates : On
+                 Zero Suppress : Leading Zero Suppress
+                   Flash Shape : Circle
+                                 Donut
+                                 Square
+                                 Rectangle
+                                 Round Thermal
+                                 Square Thermal
+                   Stream Mode : Normal Stream
+                  Polygon Mode : Expand as Stream
+               Arc Output Mode : Quarter Circle
+     Arc Center Representation : Incremental
+            Segment Resolution : 0.05000
+                 Paint Overlap : 0.01000
+                      EOB Code : *
+                      EOR Code : SPACE
+                      ETB Code : SPACE
+                      PAD Code : SPACE
+
+                    <PHD> File : "E:\XSL\project\solo\LV07\num2\Gerber\Gerber-XSL24002SCV14\XSL24002SCV14_GP3.phd"
+                    <PHL> File : "E:\XSL\project\solo\LV07\num2\Gerber\Gerber-XSL24002SCV14\XSL24002SCV14_GP3.phl"
+
+                     List Unit : Millimeters
+
+     Layer(Drawing) - (Mirror) :                 WIR3(without) - (        off)
+                          Noun : TEXT
+                                 AREA
+                                 LINE
+                                 SURF
+                                 SYMBOL
+                                 PADREF
+                                 PADINST
+                                 PADSTKREF
+                                 PADSTKINST
+                                 DIMENSION
+                                 DIMLEADER
+                                 MESHPLANE
+                 Output figure : POSI([F][S][P])
+                      Rotation : (  0)
+                        Origin : (  0.000,  0.000)
+                         Scale : (  1.000)
+                        Offset : (  0.000,  0.000)
+
+                Aperture Table :
++----+--------+------+----+----------+----------+----+----------+----------+------------------+
+| No | D-CODE | TYPE | FIG|   DIM/W  | IN-DIM/H | ANG|  SLIT W  |SLIT COUNT|     PAD NAME     |
++----+--------+------+----+----------+----------+----+----------+----------+------------------+
+|   1|D11     |FLSH  |CI  |  0.200000|----------|----|----------|----------|------------------|
+|   2|D12     |FLSH  |CI  |  0.300000|----------|----|----------|----------|------------------|
+|   3|D14     |FLSH  |CI  |  0.500000|----------|----|----------|----------|------------------|
+|   4|D15     |FLSH  |CI  |  0.600000|----------|----|----------|----------|------------------|
+|   5|D16     |FLSH  |CI  |  0.700000|----------|----|----------|----------|------------------|
+|   6|D19     |FLSH  |CI  |  1.000000|----------|----|----------|----------|------------------|
+|   7|D25     |FLSH  |CI  |  1.600000|----------|----|----------|----------|------------------|
+|   8|D29     |FLSH  |CI  |  2.000000|----------|----|----------|----------|------------------|
+|   9|D39     |FLSH  |CI  |  3.000000|----------|----|----------|----------|------------------|
+|  10|D59     |FLSH  |CI  |  0.150000|----------|----|----------|----------|------------------|
+|  11|D75     |FLSH  |CI  |  1.650000|----------|----|----------|----------|------------------|
++----+--------+------+----+----------+----------+----+----------+----------+------------------+
+     * FLSH   = POSI FLASH  STRM   = POSI STREAM  PGON   = POSI POLYGON
+       N-FLSH = NEGA FLASH  N-STRM = NEGA STREAM  N-PGON = NEGA POLYGON
+    ** CI = CIRCLE          SQ = SQUARE          RE = RECTANGLE       DO = DONUT
+       RT = ROUND_THERMAL   ST = SQUARE_THERMAL  CU = CUSTOM(ODD_SHAPE)
+
+                Aperture Count :
++----+--------+--------+--------+--------+--------+--------+--------+------------+------------+
+| No | D-CODE | FLASH  | STREAM | POLYGON| N-FLASH|N-STREAM|N-PLYGON| MOVE DIST. | DRAW DIST. |
++----+--------+--------+--------+--------+--------+--------+--------+------------+------------+
+|   1|D11     |       0|      42|       0|       0|       0|       0|     323.380|     730.548|
+|   2|D12     |       0|       9|       0|       0|       0|       0|     109.440|     134.525|
+|   3|D14     |       0|       7|       0|       0|       0|       0|     126.801|      64.588|
+|   4|D15     |     233|       5|       0|       0|       0|       0|    2025.880|     114.741|
+|   5|D16     |     998|       1|       0|       0|       0|       0|    4807.525|       1.300|
+|   6|D19     |       0|       6|       0|       0|       0|       0|     178.660|     135.742|
+|   7|D25     |      10|       0|       0|       0|       0|       0|     151.219|       0.000|
+|   8|D29     |       0|       1|       0|       0|       0|       0|      10.993|      23.005|
+|   9|D39     |       2|       0|       0|       0|       0|       0|      55.132|       0.000|
+|  10|D59     |       0|   11990|       0|       0|       0|       0|   21211.068|   47213.196|
+|  11|D75     |       4|       0|       0|       0|       0|       0|      18.035|       0.000|
++----+--------+--------+--------+--------+--------+--------+--------+------------+------------+
+|    Total    |    1247|   12061|       0|       0|       0|       0|   29018.134|   48417.644|
++-------------+--------+--------+--------+--------+--------+--------+------------+------------+
+
+                     Data Area : (  0.575000,  0.575000) - ( 89.425000, 99.425000)

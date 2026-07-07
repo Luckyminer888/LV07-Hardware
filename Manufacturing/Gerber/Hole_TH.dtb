@@ -1,0 +1,11 @@
+
+Unit	: "MM"		# Mm/Inch/Mil/Micron(it's effectually File parameter Only)
+
+Comment	: "Auto Assign Tools"
+
+Table 1 {		# Tool_code:size[:type/ALL[:GENERAL/oblong[:UNDEF/on/off]]]
+	"T01:0.30000:ALL:GENERAL:UNDEF"
+	"T02:0.40000:ALL:GENERAL:UNDEF"
+	"T03:1.05000:ALL:GENERAL:UNDEF"
+	"T04:1.10000:ALL:GENERAL:UNDEF"
+}

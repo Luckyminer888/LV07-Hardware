@@ -1,0 +1,142 @@
+#
+# Unit of Size Parameter which is Aperture Figure.
+#
+# 0 - mm
+# 1 - inch
+# 2 - mil
+# 3 - micron
+#
+Unit             : 0
+
+#
+# Aperture Table
+#
+#  "[Code]:[Type]/[Posi,Nega]:[Figure]:[Size Parameters]"
+#
+#   Code           - Aperture Code
+#   Type           - 'F'(Flash),'S'(Stream),'P'(Polygon)
+#   Posi,Nega      - 'P'(Posi),'N'(Nega)
+#   Figure         - 'CI'(Circle),'SQ'(Square),
+#                    'RE'(Rectangle),'DO'(Doughnut)
+#                    'RT'(Round Thermal),'ST'(Square Thermal),
+#                    'CU'(Custom Aperture)
+#   Size Parameter - Figure is 'CI' -> '0.1'
+#                                      Circle Diameter (Radius x 2)
+#                    Figure is 'SQ' -> '1.0'
+#                                      Square Width
+#                    Figure is 'RE' -> '2.0/1.0/30'
+#                                      Rectangle Width,Height and Angle
+#                    Figure is 'DO' -> '3.0/1.0'
+#                                      Circle Diameter and Inner Diameter
+#                    Figure is 'RT' -> '3.0/1.0/0.1/4/0'
+#                                      Circle Diameter,Inner Diameter,
+#                                      Slit Width,Slit Count and Start Angle
+#                    Figure is 'ST' -> '3.0/1.0/0.1/4/0'
+#                                      Square Width,Inner Square Width,
+#                                      Slit Width,Slit Count and Start Angle
+#                    Figure is 'CU' -> 'XXX/0'
+#                                      Pad Name and Angle
+#
+ApertureTable 1 {
+    "D87:F/P:CI:0.03000"
+    "D58:F/P:CI:0.05000"
+    "D91:F/P:CI:0.08000"
+    "D10:F/P:CI:0.10000"
+    "D79:F/P:CI:0.12000"
+    "D86:F/P:CI:0.12500"
+    "D59:F/P:CI:0.15000"
+    "D68:F/P:CI:0.18000"
+    "D11:F/P:CI:0.20000"
+    "D80:F/P:CI:0.22000"
+    "D60:F/P:CI:0.25000"
+    "D92:F/P:CI:0.27000"
+    "D12:F/P:CI:0.30000"
+    "D81:F/P:CI:0.33000"
+    "D82:F/P:CI:0.34000"
+    "D61:F/P:CI:0.35000"
+    "D13:F/P:CI:0.40000"
+    "D62:F/P:CI:0.45000"
+    "D14:F/P:CI:0.50000"
+    "D63:F/P:CI:0.55000"
+    "D15:F/P:CI:0.60000"
+    "D64:F/P:CI:0.65000"
+    "D16:F/P:CI:0.70000"
+    "D65:F/P:CI:0.75000"
+    "D17:F/P:CI:0.80000"
+    "D66:F/P:CI:0.85000"
+    "D18:F/P:CI:0.90000"
+    "D67:F/P:CI:0.95000"
+    "D19:F/P:CI:1.00000"
+    "D69:F/P:CI:1.05000"
+    "D20:F/P:CI:1.10000"
+    "D70:F/P:CI:1.15000"
+    "D21:F/P:CI:1.20000"
+    "D71:F/P:CI:1.25000"
+    "D22:F/P:CI:1.30000"
+    "D72:F/P:CI:1.35000"
+    "D23:F/P:CI:1.40000"
+    "D73:F/P:CI:1.45000"
+    "D24:F/P:CI:1.50000"
+    "D74:F/P:CI:1.55000"
+    "D25:F/P:CI:1.60000"
+    "D75:F/P:CI:1.65000"
+    "D26:F/P:CI:1.70000"
+    "D76:F/P:CI:1.75000"
+    "D27:F/P:CI:1.80000"
+    "D77:F/P:CI:1.85000"
+    "D28:F/P:CI:1.90000"
+    "D78:F/P:CI:1.95000"
+    "D29:F/P:CI:2.00000"
+    "D30:F/P:CI:2.10000"
+    "D31:F/P:CI:2.20000"
+    "D89:F/P:CI:2.25000"
+    "D32:F/P:CI:2.30000"
+    "D33:F/P:CI:2.40000"
+    "D34:F/P:CI:2.50000"
+    "D84:F/P:CI:2.50000"
+    "D83:F/P:CI:2.55000"
+    "D35:F/P:CI:2.60000"
+    "D36:F/P:CI:2.70000"
+    "D37:F/P:CI:2.80000"
+    "D38:F/P:CI:2.90000"
+    "D39:F/P:CI:3.00000"
+    "D40:F/P:CI:3.10000"
+    "D41:F/P:CI:3.20000"
+    "D42:F/P:CI:3.30000"
+    "D43:F/P:CI:3.40000"
+    "D85:F/P:CI:3.45000"
+    "D44:F/P:CI:3.50000"
+    "D45:F/P:CI:3.60000"
+    "D46:F/P:CI:3.70000"
+    "D47:F/P:CI:3.80000"
+    "D48:F/P:CI:3.90000"
+    "D49:F/P:CI:4.00000"
+    "D50:F/P:CI:4.10000"
+    "D51:F/P:CI:4.20000"
+    "D52:F/P:CI:4.30000"
+    "D53:F/P:CI:4.40000"
+    "D54:F/P:CI:4.50000"
+    "D55:F/P:CI:4.60000"
+    "D56:F/P:CI:4.70000"
+    "D57:F/P:CI:4.80000"
+    "D88:F/P:CI:6.00000"
+    "D90:F/P:CI:10.00000"
+    "D90:F/N:RT:1.20000/0.80000/0.30000/4/45"
+    "D91:F/N:RT:1.30000/0.90000/0.30000/4/45"
+    "D92:F/N:RT:1.40000/1.00000/0.50000/4/45"
+    "D93:F/N:RT:1.50000/1.10000/0.50000/4/45"
+    "D94:F/N:RT:1.60000/1.20000/0.50000/4/45"
+    "D95:F/N:RT:1.70000/1.30000/0.50000/4/45"
+    "D96:F/N:RT:1.80000/1.40000/0.50000/4/45"
+    "D97:F/N:RT:1.90000/1.50000/0.50000/4/45"
+    "D98:F/N:RT:2.00000/1.60000/0.50000/4/45"
+    "D99:F/N:RT:2.10000/1.70000/0.50000/4/45"
+    "D100:F/N:RT:2.20000/1.80000/0.50000/4/45"
+    "D101:F/N:RT:2.30000/1.90000/0.50000/4/45"
+    "D102:F/N:RT:2.40000/2.00000/0.50000/4/45"
+    "D103:F/N:RT:2.50000/2.10000/0.50000/4/45"
+    "D104:F/N:RT:2.60000/2.20000/0.50000/4/45"
+    "D105:F/N:RT:2.70000/2.30000/0.50000/4/45"
+    "D106:F/N:RT:2.80000/2.40000/0.50000/4/45"
+    "D107:F/N:RT:2.90000/2.50000/0.50000/4/45"
+}

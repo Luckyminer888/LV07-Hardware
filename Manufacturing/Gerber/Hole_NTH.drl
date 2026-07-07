@@ -1,0 +1,68 @@
+
+  ******  DRILL DATA LIST  ******
+
+                        Date/Time : Mon Jul 15 08:08:16 2024
+                        Host Name : "DESKTOP-7E5HBUS"
+                        Directory : "E:\tool\Cadence\SPB_Data"
+                        User Name : ³ÂÅåË¹
+
+                       <DRP> File : "C:\Users\³ÂÅåË¹\AppData\Local\Temp\param2.drp"
+                         Comments : ""
+
+                   <PNL/PCB> File : "E:\XSL\project\solo\LV07\num2\pcb\XSL24002SCV14.pcb"
+                  <MRL/MRDB> File : "D:\Home\cdb\mrdb\pro.mrdb"
+                    Drill Machine : "Excellon"
+
+                  Extended Format : Excellon
+                   Character Code : ASCII
+                    Record Format : Non-Full Storage
+                    Record Length : 512
+                     NC Data Unit : Millimeters
+                Coordinate Format : 000V000
+                       Round Unit : 0.00100
+        Coordinate Representation : Absolute
+                 Omit Coordinates : On
+                    Zero Suppress : Leading Zero Suppress
+ Coordinates during Tool Exchange : Clear
+                         EOB Code : LF
+                         EOR Code : SPACE
+                         ETB Code : SPACE
+                         PAD Code : SPACE
+
+                       <DRD> File : "E:\XSL\project\solo\LV07\num2\Gerber\Gerber-XSL24002SCV14\Hole_NTH.drd"
+                       <DRL> File : "E:\XSL\project\solo\LV07\num2\Gerber\Gerber-XSL24002SCV14\Hole_NTH.drl"
+
+                        List Unit : Millimeters
+
+                            Layer : Only through holes
+                Plating attribute : Off
+                           Figure : Round/Slot/Square
+             Way to output oblong : Sequential (Movement rate:0.25000)
+             Way to output square : Sequential (Movement rate:0.25000)
+
+                           Origin : (   0.00000,   0.00000)
+                           Mirror : OFF
+                         Rotation : (   0)
+                            Scale : (   1.00000)
+                           Offset : (   0.00000,   0.00000)
+
+                       Drill Data : 
+ +-----+---------+-------+-------+-----------+-----+-------+---------+-------------+-------------+
+ | No. | T_code  | Kind  | Shape |    Size   | Type|Plating|   Hits  |     Move    |   MAX(X,Y)  |
+ +-----+---------+-------+-------+-----------+-----+-------+---------+-------------+-------------+
+ |   1 |T01      |Normal |Circle |   0.70000 |   0 |   Off |       2 |   100.12623 |    99.70000 |
+ +-----+---------+-------+-------+-----------+-----+-------+---------+-------------+-------------+
+ |   2 |T02      |Normal |Circle |   2.00000 |   1 |   Off |       2 |    67.90199 |    67.50000 |
+ +-----+---------+-------+-------+-----------+-----+-------+---------+-------------+-------------+
+ |   3 |T03      |Normal |Circle |   3.00000 |   4 |   Off |       4 |   184.30041 |   159.00000 |
+ +-----+---------+-------+-------+-----------+-----+-------+---------+-------------+-------------+
+ |   4 |T04      |Normal |Oblong |   3.00000 |   0 |   Off |       6 |   134.94419 |   134.80000 |
+ +-----+---------+-------+-------+-----------+-----+-------+---------+-------------+-------------+
+ |   5 |T05      |Normal |Circle |   3.20000 |   0 |   Off |       2 |    71.55500 |    61.49000 |
+ +-----+---------+-------+-------+-----------+-----+-------+---------+-------------+-------------+
+ |   6 |T06      |Normal |Circle |   4.20000 |   4 |   Off |       4 |   359.04638 |   359.00000 |
+ +-----+---------+-------+-------+-----------+-----+-------+---------+-------------+-------------+
+ |      Total                                              |      20 |   917.87420 |   881.49000 |
+ +---------------------------------------------------------+---------+-------------+-------------+
+
+                        Data Area : (   3.00000,   3.00000)-(  87.00000,  98.00000)

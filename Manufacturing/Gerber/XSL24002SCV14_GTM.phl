@@ -1,0 +1,86 @@
+******  PHOTO DATA LIST ******
+
+                     Date/Time : Mon Jul 15 08:03:33 2024
+                     Host Name : "DESKTOP-7E5HBUS"
+                     Directory : "E:\tool\Cadence\SPB_Data"
+                     User Name : ³ÂÅåË¹
+
+                    <PHP> File : "C:\Users\³ÂÅåË¹\AppData\Local\Temp\param2.php"
+                      Comments : ""
+
+                <PCB/PNL> File : "E:\XSL\project\solo\LV07\num2\pcb\XSL24002SCV14.pcb"
+               <MRL/MRDB> File : "D:\Home\cdb\mrdb\pro.mrdb"
+                 Photo Machine : "RS274X"
+
+               Extended Format : Gerber RS274X
+                Character Code : ASCII
+                 Record Format : Full Storage
+                 Record Length : 512
+                  NC Data Unit : Millimeters
+             Coordinate Format : 000V000
+                    Round Unit : 0.00100
+     Coordinate Representation : Absolute
+              Omit Coordinates : On
+                 Zero Suppress : Leading Zero Suppress
+                   Flash Shape : Circle
+                                 Donut
+                                 Square
+                                 Rectangle
+                                 Round Thermal
+                                 Square Thermal
+                   Stream Mode : Normal Stream
+                  Polygon Mode : Expand as Stream
+               Arc Output Mode : Quarter Circle
+     Arc Center Representation : Incremental
+            Segment Resolution : 0.05000
+                 Paint Overlap : 0.01000
+                      EOB Code : *
+                      EOR Code : SPACE
+                      ETB Code : SPACE
+                      PAD Code : SPACE
+
+                    <PHD> File : "E:\XSL\project\solo\LV07\num2\Gerber\Gerber-XSL24002SCV14\XSL24002SCV14_GTM.phd"
+                    <PHL> File : "E:\XSL\project\solo\LV07\num2\Gerber\Gerber-XSL24002SCV14\XSL24002SCV14_GTM.phl"
+
+                     List Unit : Millimeters
+
+     Layer(Drawing) - (Mirror) :          MetalMask-A(without) - (        off)
+                          Noun : TEXT
+                                 AREA
+                                 LINE
+                                 SURF
+                                 SYMBOL
+                                 PADREF
+                                 PADINST
+                                 PADSTKREF
+                                 PADSTKINST
+                                 DIMENSION
+                                 DIMLEADER
+                                 MESHPLANE
+                 Output figure : POSI([F][S][P])
+                      Rotation : (  0)
+                        Origin : (  0.000,  0.000)
+                         Scale : (  1.000)
+                        Offset : (  0.000,  0.000)
+
+                Aperture Table :
++----+--------+------+----+----------+----------+----+----------+----------+------------------+
+| No | D-CODE | TYPE | FIG|   DIM/W  | IN-DIM/H | ANG|  SLIT W  |SLIT COUNT|     PAD NAME     |
++----+--------+------+----+----------+----------+----+----------+----------+------------------+
+|   1|D10     |FLSH  |CI  |  0.100000|----------|----|----------|----------|------------------|
++----+--------+------+----+----------+----------+----+----------+----------+------------------+
+     * FLSH   = POSI FLASH  STRM   = POSI STREAM  PGON   = POSI POLYGON
+       N-FLSH = NEGA FLASH  N-STRM = NEGA STREAM  N-PGON = NEGA POLYGON
+    ** CI = CIRCLE          SQ = SQUARE          RE = RECTANGLE       DO = DONUT
+       RT = ROUND_THERMAL   ST = SQUARE_THERMAL  CU = CUSTOM(ODD_SHAPE)
+
+                Aperture Count :
++----+--------+--------+--------+--------+--------+--------+--------+------------+------------+
+| No | D-CODE | FLASH  | STREAM | POLYGON| N-FLASH|N-STREAM|N-PLYGON| MOVE DIST. | DRAW DIST. |
++----+--------+--------+--------+--------+--------+--------+--------+------------+------------+
+|   1|D10     |       0|    2895|       0|       0|       0|       0|    1834.235|    2880.042|
++----+--------+--------+--------+--------+--------+--------+--------+------------+------------+
+|    Total    |       0|    2895|       0|       0|       0|       0|    1834.235|    2880.042|
++-------------+--------+--------+--------+--------+--------+--------+------------+------------+
+
+                     Data Area : (  7.450000,  5.350000) - ( 62.225000, 99.200000)
